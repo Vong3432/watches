@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Montserrat:400,700');
+
+:root
+{
+    --primary-color: #141414;    
+}
+
+*,::before,::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+a
+{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+
+button
+{
+    outline: none;
+    border: none;
+}
+
+.secondary-button
+{
+    color: var(--primary-color) !important;
+    background: #fff;    
+    max-width: 150px;
+    width: 100%;
+    padding: .8em 1.1em !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.primary-button
+{
+    max-width: 150px;
+    width: 100%;        
+    padding: .8em 1.1em !important;
+    background: #141414;
+    color: #fff;
+    font-variant: small-caps;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.big-header
+{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header
+{
+    font-variant: small-caps;    
+    font-size: 2rem;
+}
+
+.description
+{
+    font-variant: small-caps;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding: 1.5em 0;
+}
+
+.paragraph
+{
+    font-variant: small-caps;
+    font-size: 1.1rem;
+}
+
+.container
+{
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1400px;    
+    margin: 0 auto;
+    width: 100%;    
+    min-height: inherit;    
+}
+
+.mx-auto
+{
+    margin: 0 auto;
+}
+
+.container--fluid
+{
+    display: flex;
+    flex: 1;    
+}
+
+.align-right
+{
+    margin-left: auto;        
+}
+
+.topnav
+{
+    max-width: 100%;
+    width: 100%;
+    background: var(--primary-color);
+    padding: 1.2em 0;    
+}
+
+.topnav .container
+{    
+    align-items:center;
+    justify-content: center;
+}
+
+.topnav a
+{
+    margin: 15px 0;
+    color: #fff;
+    padding: 0 1.2em;
+    font-size: .8rem;
+    font-variant: normal !important;
+}
+
+#logo
+{
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.hero-section
+{
+    max-width: 100%;
+    width: 100%;
+    background: #F8F8F8;
+    min-height: 50vh;
+}
+
+.hero-section .container
+{
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section .hero_content
+{
+    padding: 2em 0;
+}
